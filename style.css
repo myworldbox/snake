@@ -1,0 +1,30 @@
+* { 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    color: white;
+    background: lightgoldenrodyellow;
+    font-family: 'Orbitron', sans-serif;
+    list-style-type: none;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    overflow: hidden;
+    scroll-behavior: smooth;
+} 
+
+canvas {
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    top: center;
+}
+
+.button{
+    background: black;
+    width: 25vh;
+    height: 15vh;
+    border-radius: 100vw;
+}
