@@ -16,8 +16,8 @@
 } 
 
 canvas {
-    width: 40vw;
-    height: 40vw;
+    width: 50vh;
+    height: 50vh;
     display: flex;
     top: center;
 }
