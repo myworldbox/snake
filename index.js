@@ -11,8 +11,8 @@ canvas.height = canvas.clientHeight;
 tc = 50; //tc: total number of grids
 gs = canvas.height / tc; //gs: size of each grid of snake        
 
-px = py = 0; //snake head position
-ax = ay = tc - 1; //coin position
+px = py = Math.floor(Math.random() * tc); //snake head position
+ax = ay = Math.floor(Math.random() * tc); //coin position
 xv = yv = 0; //snake velocity
 trail = [];
 tail = 5; //snake length

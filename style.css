@@ -10,14 +10,14 @@
     margin: 0 auto;
     text-decoration: none;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 5vh;
     overflow: hidden;
     scroll-behavior: smooth;
 } 
 
 canvas {
-    width: 50vh;
-    height: 50vh;
+    width: 60vh;
+    height: 60vh;
     display: flex;
     top: center;
 }
@@ -26,5 +26,4 @@ canvas {
     background: black;
     width: 15vh;
     height: 10vh;
-    border-radius: 100vw;
 }
