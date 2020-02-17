@@ -16,8 +16,8 @@
 } 
 
 canvas {
-    width: 60vh;
-    height: 60vh;
+    width: 40vw;
+    height: 40vw;
     display: flex;
     top: center;
 }
@@ -25,5 +25,5 @@ canvas {
 .button{
     background: black;
     width: 15vh;
-    height: 10vh;
+    height: 8vh;
 }
