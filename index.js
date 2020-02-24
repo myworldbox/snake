@@ -8,8 +8,8 @@
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
 
-tc = 50; //tc: total number of grids
-gs = canvas.height / tc; //gs: size of each grid of snake        
+tc = 25; //tc: total number of grids on a row or a colnum
+gs = canvas.height / tc; //gs: size of each grid       
 
 px = py = Math.floor(Math.random() * tc); //snake head position
 ax = ay = Math.floor(Math.random() * tc); //coin position
